@@ -1,0 +1,155 @@
+/* =================================================  */
+
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+
+/* =================================================  */
+
+.main {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.box_main {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid darkblue; */
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.box_main:hover {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    /* border: 2px solid darkblue; */
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 2px 2px 5px palevioletred;
+}
+
+.heading_div {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: Bulletto;
+    height: 30px;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+
+.box_inner {
+
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    margin-top: 10px;
+    height: auto;
+
+}
+
+.box_inner_heading {
+    margin-top: 10px;
+    /* border: 2px solid green; */
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+}
+
+
+.item_heading {
+    font-family: Alvi;
+    color: white;
+    text-shadow: 4px 4px 5px wheat;
+    font-size: 30px;
+}
+
+
+.item_heading:hover {
+    font-family: Alvi;
+    color: white;
+    text-shadow: 4px 4px 5px palevioletred;
+    font-size: 30px;
+}
+
+
+
+.box_inner_image {
+    /* border: 2px solid blue; */
+    /* border-radius: 10px; */
+    height: 300px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.box_inner_left_btn {
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+}
+
+.box_inner_right_btn {
+    margin-top: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    height: 30px;
+    background-color: magenta;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}

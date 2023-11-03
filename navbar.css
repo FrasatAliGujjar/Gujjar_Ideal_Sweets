@@ -1,0 +1,261 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('images/bg.png');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+
+
+/* ========================   NAV BAR Start   =========================  */
+
+
+.nav_out_main {
+    /* border: 2px solid red; */
+    height: fit-content;
+
+}
+
+/* .nav_left_main {
+    border: 2px solid green;
+    height: 140px;
+    text-align: right;
+
+} */
+
+.nav_right_main {
+    /* border: 2px solid blue; */
+    height: fit-content;
+}
+
+/* ----------------------------- */
+.navbar-toggler-icon {
+    /* border: 1px solid brown; */
+    border-radius: 4px;
+    color: brown;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    transition: all 3s;
+}
+
+
+/* main nav bar out div  */
+.navbar {
+    /* border: 2px solid magenta; */
+    border-radius: 30px;
+    height: fit-content;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    /* border: 2px solid white; */
+    border-radius: 0px;
+    color: white;
+    background-color: red;
+}
+
+.nav_bar_logo_bar {
+    /* margin-top: 15px; */
+    margin-left: 2px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.nav_bar_title_bar {
+    margin-top: 15px;
+    margin-left: -10px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    margin-top: 20px;
+    margin-left: 15x;
+    /* border: 2px solid green; */
+    height: fit-content;
+}
+
+.nav-item {
+    height: fit-content;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: white;
+    font-size: 30px;
+    font-family: Bulletto;
+
+}
+
+.title:hover {
+    color: pink;
+    font-size: 30px;
+    font-family: Bulletto;
+
+}
+
+.home-btn {
+    width: 110px;
+    text-align: center;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid pink;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0px;
+    background: white;
+    color: red;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.home-btn:hover {
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    color: white;
+}
+
+.home-btn:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+.home-btn::before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 86%;
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 0 50px 30px #fff;
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+.home-btn:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {
+    .title {
+        color: white;
+        font-size: 15px;
+        font-family: Bulletto;
+
+    }
+
+    .title:hover {
+        color: pink;
+        font-size: 15px;
+        font-family: Bulletto;
+
+    }
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}

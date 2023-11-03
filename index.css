@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* =================================================  */
+
+.home_main_container {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.explore_btn_heading {
+
+    font-size: 20px;
+    font-family: Rockybilly;
+    color: red;
+    text-align: center;
+    text-shadow: 3px 3px 5px palevioletred;
+}
+
+.explore_btn_heading:hover {
+
+    font-size: 20px;
+    font-family: Rockybilly;
+    color: red;
+    text-align: center;
+    text-shadow: 3px 3px 5px pink;
+}
+
+/* ----------------------------- */
+
+.home_para {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.home_para:hover {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    font-style: italic;
+    text-shadow: 1px 1px 5px palevioletred;
+}
+
+/* ----------------------------- */
+
+
+.home_image_side_para {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.home_image_side_para:hover {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px palevioletred;
+}
+
+/* ----------------------------- */
+
+.para_block_1 {
+    order: 1;
+}
+
+.para_block_2 {
+    order: 2;
+}
+
+/* ----------------------------- */
+
+
+.review_box {
+
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {
+
+    .home_image_side_para {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    .home_image_side_para:hover {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px palevioletred;
+    }
+
+
+    .para_block_1 {
+        order: 1;
+    }
+
+    .para_block_2 {
+        order: 1;
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {}
